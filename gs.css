@@ -18,8 +18,31 @@ h3{
     font-size: 15px;
 
 }
+.mrw:hover{
+    color:mediumorchid;
+    font-size: 15px;
+    background-color:aquamarine;
+}
+.lad:hover{
+        color:mediumorchid;
+        font-size: 15px;
+        background-color:aquamarine;
+    }
+
 .mrw{
     
     color:indigo;
     font-size: 15px;
 }
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  
+  tr:nth-child(even) {
+    background-color: rgba(150, 212, 212, 0.4);
+  }
+  
+  th:nth-child(even),td:nth-child(even) {
+    background-color: rgba(150, 212, 212, 0.4);
+  }
